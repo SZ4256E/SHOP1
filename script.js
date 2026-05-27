@@ -37,6 +37,8 @@ document.getElementById("price").innerText;
 const message =
 `📦 طلب جديد
 
+👤 الاسم: ${name}
+
 🛍️ المنتج: ${product}
 
 💰 الثمن: ${price} دينار
@@ -57,3 +59,9 @@ window.open(
 );
 
 });
+<input
+  type="text"
+  id="name"
+  placeholder="الاسم الكامل"
+  required
+>
